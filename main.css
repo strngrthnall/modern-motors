@@ -1,0 +1,53 @@
+body {
+  font-family: 'Inconsolata', sans-serif;
+}
+
+.navbar {
+  background-color: #ccc;
+  font-weight: 200;
+}
+
+#cabecalho .nav .nav-link.active {
+  background-color: black;
+  color: white;
+}
+
+#cabecalho .nav .nav-link {
+  color: black;
+}
+
+#cabecalho .nav .nav-link.active:hover,
+#cabecalho .nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+.carousel-cars  {
+  height: 600px;
+}
+
+.titulo-secao {
+  font-family: 'Roboto Mono', 'Courier New';
+  border-bottom: 1px solid #ccc;
+}
+
+.subtitulo-secao {
+  font-weight: 500;
+}
+
+#historia {
+  background-color: #eeeeee;
+}
+
+.column-brands {
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.column-brands h3 {
+  text-decoration: underline;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo-brands {
+  max-width: 60%;
+}
