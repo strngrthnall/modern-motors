@@ -38,24 +38,24 @@ body {
   background-color: #eeeeee;
 }
 
-.column-brands {
-  border: 2px solid black;
-  border-radius: 20px;
-}
-
-.column-brands h3 {
-  text-decoration: underline;
-  border-bottom: 1px solid #ccc;
-}
-
-.logo-brands {
-  max-width: 60%;
-}
-
-.card.bg-light {
-  height: 100%;
-}
-
 .card-body {
   background-color: #ccc;
+}
+
+.card-footer {
+  background-color: #212529;
+}
+
+.card-text,
+.card-body h4 {
+  color: #212529;
+}
+
+.card-header h3 {
+  color: white;
+  font-size: 26px;
+}
+
+.container-img img {
+  max-height: 213px;
 }
