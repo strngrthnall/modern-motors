@@ -51,3 +51,11 @@ body {
 .logo-brands {
   max-width: 60%;
 }
+
+.card.bg-light {
+  height: 100%;
+}
+
+.card-body {
+  background-color: #ccc;
+}
