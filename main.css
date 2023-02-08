@@ -2,9 +2,11 @@ body {
   font-family: 'Inconsolata', sans-serif;
 }
 
-.navbar {
+.navbar,
+footer {
   background-color: #ccc;
   font-weight: 200;
+  border-bottom: 5px solid #6e6e6e;
 }
 
 #cabecalho .nav .nav-link.active {
@@ -38,17 +40,42 @@ body {
   background-color: #eeeeee;
 }
 
+#modelos {
+  background-color: #ccc;
+}
+
+.nav-modelos .text-colored {
+  color: black;
+  padding: 6px 8px;
+  margin-bottom: 2px;
+}
+
+.nav-modelos .text-colored.active,
+.form-enviar {
+  color: white;
+  background-color: black;
+}
+
 .card-body {
   background-color: #ccc;
 }
 
 .card-footer {
-  background-color: #212529;
+  background-color: black;
 }
 
 .card-text,
 .card-body h4 {
-  color: #212529;
+  color: black;
+}
+
+.btn-dark {
+  background-color: black;
+  border: none;
+}
+
+.card-header {
+  background-color: black;
 }
 
 .card-header h3 {
@@ -57,5 +84,9 @@ body {
 }
 
 .container-img img {
-  max-height: 213px;
+  max-height: 163px;
+}
+
+#modelos .titulo-secao {
+  border-bottom: 1px solid #eee;
 }

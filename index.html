@@ -37,7 +37,7 @@
             </a>
           </li>
           <li class="nav-item fw-bold">
-            <a href="#contato" class="nav-link">
+            <a href="#contatos" class="nav-link">
               <i class="bi bi-chat-right-dots"></i>
               Nossos Contatos
             </a>
@@ -79,7 +79,7 @@
         </div>
       </div>
 
-      <div class="pt-5 pb-2">
+      <div class="pt-5 pb-5">
         <div class="container">
           <div class="row">
             <div class="col-lg-5">
@@ -102,95 +102,242 @@
 
     </section>
 
-    <section id="modelos" class="pt-5 pb-2">
+    <section id="modelos" class="pt-3 pb-3">
       <div class="container">
         <div class="row">
           <div class="col">
             <h2 class="titulo-secao">Carros para a elite...</h2>
           </div>
         </div>
+
         <div class="row mt-3">
+          <aside class="col-lg-1 col-md-2">
+            <nav class="nav nav-pills flex-column nav-modelos">
+              <button type="button" data-bs-toggle="tab" data-bs-target="#modelos-bugatti" class=" fw-bold text-start nav-link text-colored active pe-md-1">Bugatti</button>
+              <button type="button" data-bs-toggle="tab" data-bs-target="#modelos-bmw" class=" fw-bold text-start nav-link text-colored pe-md-1">BMW</button>
+              <button type="button" data-bs-toggle="tab" data-bs-target="#modelos-ferrari" class=" fw-bold text-start nav-link text-colored pe-md-1">Ferrari</button>
+            </nav>
+          </aside>
           
-          <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-            <div class="card bg-dark w-100">
-              <div class="card-header">
-                <h3 class="subtitulo-secao">Bugatti - Chiron SS 300+</h4>
+          <div class="col-md-10 mb-3">
+            <div class="tab-content">
+              
+              <div class="tab-pane active" id="modelos-bugatti">
+                <div class="row">
+                  <div class="col-lg-4 col-md-10 col-sm-12 mb-sm-3" >
+                    <div class="card bg-dark w-100">
+                      <div class="card-header">
+                        <h3 class="subtitulo-secao">Chiron SS 300+</h4>
+                      </div>
+                      <div class="card-body p-0 d-block">
+                        <div class="container-img">
+                          <img src="./images/cars/bugatti-chiron.webp" class="card-img-top" style="object-fit: cover; width: 100%; height: 100%;">
+                        </div>
+                        <div class="container pt-2">
+                          <h4>R$ 19.700.000,00</h5>
+                            <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt autem cumque hic itaque, architecto at eaque incidunt laudantium! Vero excepturi fuga molestias hic ex maxime eligendi temporibus totam incidunt molestiae?</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between">
+                          <button type="button" class="btn btn-light">
+                            Comprar
+                          </button>
+                          <button type="button" class="btn btn-dark">
+                            Detalhes
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-10 col-sm-12 mb-sm-3" >
+                    <div class="card bg-dark w-100">
+                      <div class="card-header">
+                        <h3 class="subtitulo-secao">La Voiture Noire</h4>
+                      </div>
+                      <div class="card-body p-0 d-block">
+                        <div class="container-img">
+                          <img src="./images/cars/bugatti-la-voiture-noire.webp" class="card-img-top" style="object-fit: cover; width: 100%; height: 100%;">
+                        </div>
+                        <div class="container pt-2">
+                          <h4>R$ 47.000.000,00</h5>
+                            <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt autem cumque hic itaque, architecto at eaque incidunt laudantium! Vero excepturi fuga molestias hic ex maxime eligendi temporibus totam incidunt molestiae?</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between">
+                          <button type="button" class="btn btn-light">
+                            Comprar
+                          </button>
+                          <button type="button" class="btn btn-dark">
+                            Detalhes
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="card-body p-0 d-block">
-                <div class="container-img">
-                  <img src="./images/cars/bugatti-chiron.webp" class="card-img-top" style="object-fit: cover; width: 100%; height: 100%;">
+
+                <div class="tab-pane" id="modelos-bmw">
+                  <div class="row">
+                    
+                    <div class="col-lg-4 col-md-10 col-sm-12 mb-sm-3" >
+                      <div class="card bg-dark w-100">
+                        <div class="card-header">
+                          <h3 class="subtitulo-secao">i8 Concours</h4>
+                        </div>
+                        <div class="card-body p-0 d-block">
+                          <div class="container-img ">
+                            <img src="images\cars\bmw-i8.jpg" class="card-img-top" >
+                          </div>
+                          <div class="container pt-2">
+                            <h4>R$ 4.263.847,50</h5>
+                              <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt autem cumque hic itaque, architecto at eaque incidunt laudantium! Vero excepturi fuga molestias hic ex maxime eligendi temporibus totam incidunt molestiae?</p>
+                          </div>
+                          <div class="card-footer d-flex justify-content-between">
+                            <button type="button" class="btn btn-light">
+                              Comprar
+                            </button>
+                            <button type="button" class="btn btn-dark">
+                              Detalhes
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-10 col-sm-12 mb-sm-3">
+                      <div class="card bg-dark w-100">
+                        <div class="card-header">
+                          <h3 class="subtitulo-secao">M8 Competition</h4>
+                        </div>
+                        <div class="card-body p-0 d-block">
+                          <div class="container-img ">
+                            <img src="images\cars\bmw-m8.jpg" class="card-img-top" >
+                          </div>
+                          <div class="container pt-2">
+                            <h4>R$ 1.320.950,00</h5>
+                              <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt autem cumque hic itaque, architecto at eaque incidunt laudantium! Vero excepturi fuga molestias hic ex maxime eligendi temporibus totam incidunt molestiae?</p>
+                          </div>
+                          <div class="card-footer d-flex justify-content-between">
+                            <button type="button" class="btn btn-light">
+                              Comprar
+                            </button>
+                            <button type="button" class="btn btn-dark">
+                              Detalhes
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
                 </div>
-                <div class="container pt-2">
-                  <h4>R$ 19.700.000,00</h5>
-                    <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt autem cumque hic itaque, architecto at eaque incidunt laudantium! Vero excepturi fuga molestias hic ex maxime eligendi temporibus totam incidunt molestiae?</p>
-                </div>
-                <div class="card-footer d-flex justify-content-between">
-                  <button type="button" class="btn btn-light">
-                    Comprar
-                  </button>
-                  <button type="button" class="btn btn-dark">
-                    Detalhes
-                  </button>
-                </div>
+
+                  <div class="tab-pane" id="modelos-ferrari">
+                    <div class="row">
+
+                      <div class="col-lg-4 col-md-10 col-sm-12 mb-sm-3" >
+                        <div class="card bg-dark w-100">
+                          <div class="card-header">
+                            <h3 class="subtitulo-secao">LaFerrari</h4>
+                          </div>
+                          <div class="card-body p-0">
+                            <div class="container-img">
+                              <img src="./images/cars/laferrari.jpg" class="card-img-top h-100" style="object-fit: cover;">
+                            </div>
+                            <div class="container pt-2">
+                              <h4>R$ 45.200.000,00</h5>
+                                <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt autem cumque hic itaque, architecto at eaque incidunt laudantium! Vero excepturi fuga molestias hic ex maxime eligendi temporibus totam incidunt molestiae?</p>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between">
+                              <button type="button" class="btn btn-light">
+                                Comprar
+                              </button>
+                              <button type="button" class="btn btn-dark">
+                                Detalhes
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-4 col-md-10 col-sm-12 mb-sm-3" >
+                        <div class="card bg-dark w-100">
+                          <div class="card-header">
+                            <h3 class="subtitulo-secao">Ferrari Daytona SP3</h4>
+                          </div>
+                          <div class="card-body p-0">
+                            <div class="container-img">
+                              <img src="./images/cars/Ferrari-Daytona.webp" class="card-img-top h-100" style="object-fit: cover;">
+                            </div>
+                            <div class="container pt-2">
+                              <h4>R$ 12.600.000,00</h5>
+                                <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt autem cumque hic itaque, architecto at eaque incidunt laudantium! Vero excepturi fuga molestias hic ex maxime eligendi temporibus totam incidunt molestiae?</p>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between">
+                              <button type="button" class="btn btn-light">
+                                Comprar
+                              </button>
+                              <button type="button" class="btn btn-dark">
+                                Detalhes
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                        
+                    </div>
+                  </div>
+
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-            <div class="card bg-dark w-100">
-              <div class="card-header">
-                <h3 class="subtitulo-secao">BMW - i8 Concours</h4>
-              </div>
-              <div class="card-body p-0 d-block">
-                <div class="container-img ">
-                  <img src="images\cars\BMW-i8-Concours-.jpg" class="card-img-top" >
-                </div>
-                <div class="container pt-2">
-                  <h4>R$ 4.263.847,50</h5>
-                    <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt autem cumque hic itaque, architecto at eaque incidunt laudantium! Vero excepturi fuga molestias hic ex maxime eligendi temporibus totam incidunt molestiae?</p>
-                </div>
-                <div class="card-footer d-flex justify-content-between">
-                  <button type="button" class="btn btn-light">
-                    Comprar
-                  </button>
-                  <button type="button" class="btn btn-dark">
-                    Detalhes
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-            <div class="card bg-dark w-100">
-              <div class="card-header">
-                <h3 class="subtitulo-secao">Ferrari - LaFerrari</h4>
-              </div>
-              <div class="card-body p-0">
-                <div class="container-img">
-                  <img src="./images/cars/laferrari.jpg" class="card-img-top h-100" style="object-fit: cover;">
-                </div>
-                <div class="container pt-2">
-                  <h4>R$ 45.200.000,50</h5>
-                    <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt autem cumque hic itaque, architecto at eaque incidunt laudantium! Vero excepturi fuga molestias hic ex maxime eligendi temporibus totam incidunt molestiae?</p>
-                </div>
-                <div class="card-footer d-flex justify-content-between">
-                  <button type="button" class="btn btn-light">
-                    Comprar
-                  </button>
-                  <button type="button" class="btn btn-dark">
-                    Detalhes
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
 
         </div>
       </div>
     </section>
 
+    <section id="contatos" class="pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2 class="titulo-secao">Primeiro passo rumo ao sonho...</h2>
+          </div>
+        </div>
+
+        <form>
+          <div class="row">
+            <div class="col-md-6 mb-5">
+              <div class="mb-3">
+                <label for="nome" class="form-label fw-bold">Nome:</label>
+                <input type="text" name="nome" id="nome" class="form-control" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label fw-bold">Email:</label>
+                <input type="text" name="email" id="email" class="form-control" required>
+              </div>
+              <div class="mb-3">
+                <label for="telefone" class="form-label fw-bold">Telefone:(Opcional)</label>
+                <input type="tel" name="telefone" id="telefone" class="form-control">
+              </div>
+              <div class="mb-3">
+                <label for="mensagem" class="form-label fw-bold">Mensagem:</label>
+                <input type="textarea" name="mensagem" id="mensagem" class="form-control" required>
+              </div>
+              <button type="submit" class="btn fw-bold form-enviar">Enviar</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
   </div>
+
+  <footer class="pb-5">
+    <div class="container">
+      aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    </div>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script> 
 </body>
