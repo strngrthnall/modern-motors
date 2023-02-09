@@ -90,3 +90,26 @@ footer {
 #modelos .titulo-secao {
   border-bottom: 1px solid #eee;
 }
+
+.formulario {
+  border-right: 1px solid  #eee;
+  padding-right: 10px;
+}
+
+.subtitulo-secao.form {
+  font-size: larger;
+}
+
+.social-links {
+  border-bottom: 1px solid #eee;
+}
+
+.social-links li {
+  list-style: none;
+  display: inline;
+}
+
+.social-links a {
+  text-decoration: none;
+  color:black
+}

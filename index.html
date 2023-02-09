@@ -49,7 +49,7 @@
   </header>
 
   <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
-    <section id="historia" class="  pb-3">
+    <section id="historia" class="pb-3">
       <div class="carousel slide" data-bs-ride="carousel" id="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="3000">
@@ -305,9 +305,13 @@
           </div>
         </div>
 
-        <form>
-          <div class="row">
-            <div class="col-md-6 mb-5">
+        <div class="row">
+          <div class="col-md-6 mb-5">
+            <h2 class="subtitulo-secao fs-4">
+              <i class="bi bi-envelope"></i>
+              Fale conosco
+            </h2>
+            <form class="formulario">
               <div class="mb-3">
                 <label for="nome" class="form-label fw-bold">Nome:</label>
                 <input type="text" name="nome" id="nome" class="form-control" required>
@@ -325,9 +329,50 @@
                 <input type="textarea" name="mensagem" id="mensagem" class="form-control p-4" required>
               </div>
               <button type="submit" class="btn fw-bold form-enviar">Enviar</button>
+            </form>
+          </div>
+
+          <div class="col-md-6">
+            <div class="row">
+              <h2 class="subtitulo-secao fs-4">
+                <i class="bi bi-chat-right-heart"></i>
+                Redes Sociais
+              </h2>
+              <ul class="social-links pb-3">
+                <li class="fs-5">
+                  <a target="_blank" href="#">
+                    <i class="bi bi-facebook"></i>
+                  </a>
+                  
+                </li>
+                <li class="fs-5 ms-2 me-2">
+                  <a target="_blank" href="#">
+                    <i class="bi bi-instagram"></i>
+                  </a>
+                  
+                </li>
+                <li class="fs-5">
+                  <a target="_blank" href="#">
+                    <i class="bi bi-whatsapp"></i>
+                  </a>
+                  
+                </li>
+              </ul>
+            </div>
+
+            <div class="row social-links pb-3">
+              <h2 class="subtitulo-secao fs-4 pb-3">
+                <i class="bi bi-geo-alt"></i>
+                Endereço:
+              </h2>
+              <a class="pb-3" target="_blank" href="https://www.google.com.br/maps/place/Estr.+Dom+Pedro+Augusto+-+Alto+da+Boa+Vista,+Rio+de+Janeiro+-+RJ,+20531-250/@-22.9517655,-43.2855675,18z/data=!3m1!4b1!4m16!1m9!4m8!1m0!1m6!1m2!1s0x997d5ecc73418f:0x2092b1aa58b26ade!2sRio+de+Janeiro,+RJ!2m2!1d-43.2860901!2d-22.9507733!3m5!1s0x9bd64ecaa55c4d:0xf3ebd0b1df6c2ef8!8m2!3d-22.9517674!4d-43.2847168!16s%2Fg%2F11g5_w_j0c">
+                Estr. Dom Pedro Augusto, 777 - Alto da Boa Vista, Rio de Janeiro - RJ, 20531-250
+              </a>
+              <iframe class="h-100" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1836.9828061031008!2d-43.285800341978565!3d-22.951493526372943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjLCsDU3JzA1LjQiUyA0M8KwMTcnMDQuOSJX!5e0!3m2!1spt-BR!2sbr!4v1675949542728!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
-        </form>
+          
+        </div>
       </div>
     </section>
 
