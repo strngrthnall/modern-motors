@@ -9,6 +9,11 @@ footer {
   border-bottom: 5px solid #6e6e6e;
 }
 
+#cabecalho img {
+  max-height: 10%;
+  max-width: 10%;
+}
+
 #cabecalho .nav .nav-link.active {
   background-color: black;
   color: white;
